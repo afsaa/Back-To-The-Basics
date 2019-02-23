@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0.25rem 0.25rem;
+}
+
+h1 strong {
+    color: #216C2A;
+}
+
+.header {
+    background-color: rgb(17, 192, 40) ;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('../img/heroImg.jpeg');
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+    height: 400px;
+}
+
+.hero-left h1 {
+    padding: 0 2rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.hero-left, .hero-right {
+    width: 50%;
+}
+
+.hero-imgContainer {
+    width: 50%;
+}
+
+.hero-img {
+    width: 100%;
+    height: 300px;
+}
+
+.quote {
+    background: dodgerblue;
+    color: white;
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+}
+
+.blockquote {
+    color: black;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.quote-footer {
+    color: white;
+    padding: 0.5rem 0;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.calc {
+    background-color: rgb(17, 192, 40);
+    
+    margin: 0;
+    padding: 1rem 1rem;
+}
+
+.calc-input {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.calc-btn {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 1rem 1rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
