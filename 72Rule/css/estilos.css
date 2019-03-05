@@ -116,8 +116,8 @@ h1 strong {
     background-color: #85bb65;
     margin: 0 0.5rem;
     padding: 0.5rem 0.5rem;
-    border: 1px solid black;
-    border-radius: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
@@ -125,6 +125,11 @@ h1 strong {
 
 .calc-btn:hover {
     background-color: #6ba449;
+    border: 1px solid black;
+}
+
+.calc-btn:focus {
+    box-shadow: black;
 }
 
 .footer {
