@@ -138,3 +138,79 @@ h1 strong {
     background-color: black;
     color: white;
 }
+
+@media screen and (max-width: 320px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .hero-right {
+        margin: 20px 20px;
+        padding: 0;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .quote {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .calc {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .calc-input {
+        width: 130px;
+        height: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .hero-right {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+    .quote {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .calc {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .calc-input {
+        width: 150px;
+        height: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
