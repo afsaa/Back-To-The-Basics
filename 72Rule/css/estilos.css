@@ -152,6 +152,11 @@ h1 strong {
         margin-bottom: 0;
     }
 
+    .hero-right {
+        margin: 15px 15px;
+        padding: 0;
+    }
+
     .hero-img {
         width: 100%;
         height: auto;
@@ -174,8 +179,9 @@ h1 strong {
     .footer {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
     }
-    
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -185,34 +191,8 @@ h1 strong {
         margin-bottom: 20px;
     }
 
-    .calc {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .footer {
-        margin: 0;
-        padding: 20px 20px;
-    }
-}
-
-@media screen and ( max-width: 480px ){
-    body {
-        width: 100%;
-    }
-
-    header {
-        width: 100%;
-    }
-
-    .hero {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
     .hero-right {
-        margin: 0 20px;
+        margin: 15px 15px;
         padding: 0;
     }
 
@@ -220,26 +200,30 @@ h1 strong {
         width: 100%;
         height: auto;
     }
+
     .quote {
         display: flex;
         flex-wrap: wrap;
     }
+
     .calc {
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .calc-input {
         width: 150px;
         height: 20px;
     }
-
+    
     .footer {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
     }
-    
 }
+
 @media screen and ( max-width: 768px ){
 
 }
