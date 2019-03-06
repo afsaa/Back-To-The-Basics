@@ -89,9 +89,9 @@ h1 strong {
 }
 
 .calc {
-    background-color: rgb(17, 192, 40);
     margin: 0;
     padding: 3rem 3rem;
+    background-color: rgb(17, 192, 40);
 }
 
 .calc div {
@@ -103,6 +103,13 @@ h1 strong {
     border-radius: 5px;
 }
 
+.calc div strong.years{
+    color: dodgerblue;
+}
+
+.calc div strong.net-profit{
+    color: darkgreen;
+}
 .calc-input {
     margin: 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem;
@@ -128,12 +135,11 @@ h1 strong {
     border: 1px solid black;
 }
 
-.calc-btn:focus {
+.calc-btn::after {
     box-shadow: black;
 }
 
 .footer {
-    padding: 1rem 1rem;
     font-weight: 500;
     background-color: black;
     color: white;
@@ -144,11 +150,6 @@ h1 strong {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 0;
-    }
-
-    .hero-right {
-        margin: 20px 20px;
-        padding: 0;
     }
 
     .hero-img {
@@ -184,10 +185,35 @@ h1 strong {
         margin-bottom: 20px;
     }
 
-    .hero-right {
-        padding: 0;
+    .calc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        margin: 0;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and ( max-width: 480px ){
+    body {
         width: 100%;
-        height: auto;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .hero-right {
+        margin: 0 20px;
+        padding: 0;
     }
 
     .hero-img {
@@ -212,5 +238,12 @@ h1 strong {
         display: flex;
         flex-wrap: wrap;
     }
+    
+}
+@media screen and ( max-width: 768px ){
+
+}
+
+@media screen and ( max-width: 1024px ){
     
 }
