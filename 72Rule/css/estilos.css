@@ -227,6 +227,8 @@ h1 strong {
  .hero {
      margin: 0;
      flex-wrap: unset;
+     font-size: 12px;
+     justify-content: space-evenly;
  }
 
  .hero-left {
@@ -234,19 +236,53 @@ h1 strong {
  }
 
  .hero-left h1 {
-     margin: 0;
-     padding: 0;
+     margin: .5em;
+     padding: .5em;
+     font-size: 2.1em;
+     text-align: center;
  }
 
  .hero-right {
      width: 50%;
-     margin: 15px 15px;
+     margin: 1.5em;
      padding: 0;
  }
 
  .hero-img {
      width: 100%;
      height: auto;
+ }
+
+ .quote {
+     /*1em = 12px*/
+     font-size: 12px;
+     padding: .7em;
+ }
+
+ .quote h2 {
+     font-size: 1.8em;
+     padding: .5em;
+ }
+
+ .blockquote {
+     font-size: 1.5em;
+     margin: 1em 2.3em;
+ }
+
+ .calc {
+    /*1 em = 12px*/
+    font-size: 12px;
+    padding: 3em;
+ }
+
+ .calc div {
+    width: 80%;
+    margin: 1em auto;
+    padding: 1.5em;
+ }
+
+ .footer {
+     padding: 15px;
  }
 }
 
