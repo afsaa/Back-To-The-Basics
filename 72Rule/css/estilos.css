@@ -144,10 +144,11 @@ h1 strong {
     background-color: black;
     color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
+
+/* Mobile First */
 
 @media screen and (max-width: 320px) {
     .hero {
@@ -183,7 +184,7 @@ h1 strong {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 15px;
+        padding: 1em;
     }
 }
 
@@ -263,12 +264,10 @@ h1 strong {
  }
 
  .quote h2 {
-     font-size: 1.8em;
      padding: .5em;
  }
 
  .blockquote {
-     font-size: 1.5em;
      margin: 1em 2.3em;
  }
 
@@ -285,10 +284,14 @@ h1 strong {
  }
 
  .footer {
-     padding: 15px;
+     padding: 1em;
  }
 }
 
-@media screen and ( max-width: 1024px ){
-    
+@media screen and (min-width: 769px) {
+    .footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
 }
