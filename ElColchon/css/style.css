@@ -1,4 +1,8 @@
-/* Burguer menu icon */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?rw7eje');
@@ -39,14 +43,72 @@
   content: "\e9bd";
 }
 
-.icon-menu {
+.burger-menu {
     font-size: 1.5em;
     padding: .2em;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
 }
 
-.project-logo {
-  width: 100%;
-  height: auto;
+.header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: wrap;
+}
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  /* width: 100%; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ul {
+  display: flex;
+  height: inherit;
+}
+
+.header ul li {
+  height: inherit;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
 }
