@@ -17,7 +17,6 @@ body {
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -44,14 +43,21 @@ body {
 }
 
 .burger-menu {
-    font-size: 1.5em;
-    padding: .2em;
-    border: 2px solid white;
-    border-radius: 50%;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    color: white;
+  display: none;
+  font-size: 1.5em;
+  padding: .2em;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0;
+  height: 80px;
 }
 
 .header {
@@ -82,10 +88,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.logo {
-  margin-left: 60px;
 }
 
 .header a {
