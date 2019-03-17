@@ -61,7 +61,7 @@ body {
 }
 
 .header {
-  background-color: black;
+  background: black;
   color: white;
   height: 80px;
   display: flex;
@@ -71,9 +71,9 @@ body {
 }
 
 .container {
-  /* border: 1px solid red; */
-  max-width: 100%;
-  /* width: 100%; */
+  /*border: 1px solid red;*/ 
+  /*max-width: 100%;*/
+  width: 100%; 
   flex: 1;
   margin: 0 auto;
   display: inherit;
@@ -113,4 +113,56 @@ ul {
   align-items: center;
   height: inherit;
   padding: 0 10px;
+}
+
+/* Desktop First */
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .burger-menu {
+    display: block;
+  }
+
+  .header {
+    display: block;
+    height: 80px;
+  }
+
+  .header a {
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .header ul {
+    display: block;
+    height: auto;
+  }
+
+  .container {
+    display: block;
+    background: transparent;
+  }
+
+  .logo {
+    margin-left: 3.7em;
+  }
+
+  .menu {
+    background: rgba(0, 0, 0, .9);
+    position: relative;
+    top: 0;
+    left: -40vw;
+    z-index: 2;
+    width: 40%;
+    height: auto;
+    transition: .3s;
+  }
+
+  .menu.is-active {
+    left: 0;
+  }
 }
