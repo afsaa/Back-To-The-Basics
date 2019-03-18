@@ -1,3 +1,4 @@
+const ipad = window.matchMedia("screen and (max-width:768px)");
 const menu = document.querySelector('.menu');
 const burgerButton = document.querySelector('#burger-menu');
 
@@ -7,4 +8,11 @@ const toggle = () => {
     : menu.classList.add("is-active");
 }
 
-burgerButton.addEventListener("click", toggle);
+const mqValidator = (event) => {
+    event.matches
+    ? burgerButton.addEventListener("click", toggle)
+    : burgerButton.removeEventListener("click", toggle);
+}
+
+ipad.addListener(mqValidator);
+mqValidator(ipad);
