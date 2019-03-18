@@ -60,6 +60,11 @@ body {
   height: 80px;
 }
 
+.logo img {
+  width: 150px;
+  height: 80px;
+}
+
 .header {
   background: black;
   color: white;
@@ -149,6 +154,11 @@ ul {
 
   .logo {
     margin-left: 3.7em;
+  }
+
+  .logo img {
+    width: 125px;
+    height: 80px;
   }
 
   .menu {
