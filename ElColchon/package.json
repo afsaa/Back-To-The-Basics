@@ -1,0 +1,15 @@
+{
+  "name": "ElColchon",
+  "version": "1.0.0",
+  "description": "App web para ayudar a las personas a mejorar su relación con el dinero.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SaaDev&Tech",
+  "license": "ISC",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
