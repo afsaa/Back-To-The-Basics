@@ -120,6 +120,15 @@ ul {
   padding: 0 10px;
 }
 
+.header .link {
+  transition: .5s;
+}
+
+.header .link:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
 /* Desktop First */
 @media screen and (min-width: 769px) and (max-width: 1024px){
   
@@ -165,15 +174,20 @@ ul {
     background: rgba(0, 0, 0, .9);
     position: relative;
     top: 0;
-    left: -40vw;
+    left: -33vw;
     z-index: 2;
-    width: 40%;
+    width: 33%;
     height: auto;
     transition: .3s;
   }
 
   .menu.is-active {
     left: 0;
+  }
+
+  .header .link:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
   }
 }
 
@@ -227,6 +241,11 @@ ul {
   .menu.is-active {
     left: 0;
   }
+
+  .header .link:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
 }
 
 @media screen and (max-width: 320px){
@@ -278,5 +297,10 @@ ul {
 
   .menu.is-active {
     left: 0;
+  }
+
+  .header .link:hover {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
   }
 }
