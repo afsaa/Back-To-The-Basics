@@ -218,11 +218,12 @@ ul {
   }
 
   .logo {
-    margin-left: 3.7em;
+    /*margin-left: 3.7em;*/
+    text-align: center;
   }
 
   .logo img {
-    width: 125px;
+    width: 150px;
     height: 80px;
   }
 
@@ -293,11 +294,12 @@ ul {
   }
 
   .logo {
-    margin-left: 3.7em;
+    /*margin-left: 3.7em;*/
+    text-align: center;
   }
 
   .logo img {
-    width: 125px;
+    width: 140px;
     height: 80px;
   }
 
@@ -368,11 +370,12 @@ ul {
   }
 
   .logo {
-    margin-left: 3.7em;
+    /*margin-left: 3.7em;*/
+    text-align: center;
   }
 
   .logo img {
-    width: 125px;
+    width: 130px;
     height: 80px;
   }
 
