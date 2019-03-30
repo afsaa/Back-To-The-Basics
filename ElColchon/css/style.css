@@ -185,6 +185,35 @@ ul {
   height: inherit;
 }
 
+.credit-cards {
+  padding: 0;
+}
+
+.credit-cards h3 {
+  padding: 0;
+}
+
+.credit-cards-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.credit-cards-info p {
+  margin-bottom: 0;
+}
+
+.credit-cards-tips {
+  background-color: rgba(27, 151, 209, 0.8);
+}
+
+.credit-cards-tips-list {
+  font-size: 18px;
+}
+
+.credit-cards-tips-item {
+  padding: 0.4em 0.6em;
+}
+
 /* Desktop First */
 @media screen and (min-width: 769px) and (max-width: 1024px){
   
