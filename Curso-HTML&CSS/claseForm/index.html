@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="nombre">
+        <span>¿Cual es tu nombre?</span>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Tu nombre"
+          required
+          autocomplete="name"
+        />
+      </label>
+      <label for="pais-destino">
+        <span>¿A que país deseas viajar?</span>
+        <input list="paises" id="pais-destino" required />
+        <datalist id="paises">
+          <option value="Colombia"></option>
+          <option value="Estados Unidos"></option>
+          <option value="México"></option>
+          <option value="España"></option>
+          <option value="Canada"></option>
+          <option value="Brazil"></option>
+          <option value="Chile"></option>
+          <option value="Argentina"></option>
+          <option value="Ecuador"></option>
+          <option value="Perú"></option>
+        </datalist>
+      </label>
+      <label for="fecha-salida">
+        <span>¿ En que fecha quieres viajar?</span>
+        <input
+          type="datetime-local"
+          name="fecha-salida"
+          id="fecha-salida"
+          required
+        />
+      </label>
+      <label for="fecha-llegada">
+        <span>¿En que fecha quieres volver?</span>
+        <input
+          type="datetime-local"
+          name="fecha-llegada"
+          id="fecha-llegada"
+          required
+        />
+      </label>
+      <input type="submit" value="Agendar viaje" />
+    </form>
+  </body>
+</html>
