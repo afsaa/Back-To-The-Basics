@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.main-nav {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  background-color: lightblue;
+}
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* Pseudo clases - Define estilos a elementos con cierto estado  */
+.main-nav__item a:hover {
+  text-decoration: underline;
+}
+.main-nav__item a:active {
+  text-decoration: underline;
+}
+/* Pseudo elementos - Define estilos a una parte de un elemento */
+.main-nav__item a::before {
+  content: " ➡ ";
+}
