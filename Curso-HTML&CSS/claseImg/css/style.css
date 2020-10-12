@@ -1,3 +1,10 @@
+/* Eliminamos los estilos por defecto que agrega el navegador y evitamos el scroll horizontal */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #f1faee;
   color: #1d3557;
@@ -21,7 +28,6 @@ li {
 
 ul {
   list-style: none;
-  padding-right: 40px;
 }
 
 ol {
@@ -32,6 +38,7 @@ ol {
 }
 
 .main__title {
+  padding: 20px;
   font-size: 32px;
 }
 
@@ -43,6 +50,11 @@ ol {
 }
 
 .main__subtitle {
+  padding: 20px;
+}
+
+.ingredients {
+  padding: 20px;
 }
 
 .ingredient__category {
