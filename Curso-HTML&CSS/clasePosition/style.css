@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+main {
+  height: 100vh;
+}
+.card {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  width: 300px;
+  border: 10px solid #405454;
+  background-color: #9c825a;
+  border-radius: 25px;
+}
+.card__title {
+  margin: 1rem;
+  padding: 1rem;
+  position: relative;
+  bottom: 4rem;
+  color: #0d092a;
+  background-color: #9c825a;
+  border: 5px solid #405454;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 10px 10px 26px -6px rgba(0, 0, 0, 0.52);
+  text-align: center;
+}
+.card__title h2 {
+  font-size: 2.25rem;
+}
+.card__image {
+  margin-bottom: 4rem;
+}
+.card__image figure {
+  width: 100%;
+  padding: 1.25rem;
+}
+.card__image figure > img {
+  width: inherit;
+  border: 5px solid #44443c;
+}
+.card__description {
+  margin: 0 1rem 3rem 1rem;
+  padding: 1rem;
+  background-color: #c9c0af;
+  border: 5px solid #7d654f;
+}
+.card__description h3 {
+  font-size: 1.5rem;
+}
+.card__description hr + h3 {
+  text-align: right;
+  margin-top: 0.75rem;
+}
+.card__description p {
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+}
