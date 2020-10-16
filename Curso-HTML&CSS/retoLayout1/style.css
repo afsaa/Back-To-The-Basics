@@ -13,12 +13,17 @@ nav h2 {
   padding: 1rem;
   font-size: 2.5rem;
 }
+.header {
+  height: 10rem;
+}
 .header nav {
+  height: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: khaki;
 }
 .menu {
-  margin: 0 auto;
   text-align: right;
 }
 .menu li {
@@ -28,30 +33,38 @@ nav h2 {
 }
 .main {
   width: 100%;
-  height: calc(100vh - 174px);
+  height: calc(100vh - 20rem);
   display: flex;
   background-color: burlywood;
 }
 .main aside {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   padding: 1rem;
   background-color: rgb(230, 143, 82);
 }
 .main aside article {
-  height: 125px;
-  margin: 1.5rem;
+  width: 70%;
+  height: 12rem;
   background-color: lightcoral;
-  border: 2px solid black;
-  border-radius: 25px;
+  border: 0.2rem solid black;
+  border-radius: 2.5rem;
 }
 .main section {
+  width: 70%;
   margin: 1rem;
-  width: 100%;
 }
 .main section > p {
   font-size: 1.5rem;
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
   padding: 3rem;
   font-size: 2rem;
   background-color: khaki;
